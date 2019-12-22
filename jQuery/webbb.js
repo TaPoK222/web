@@ -7,7 +7,7 @@ $("#secondp").css("text-decoration", "underline");
 $("input").attr("disabled", true);
 $('a').prepend("<a>&#8599;</a>");
 $('a').attr('target', '_blank');
-$('a[href^="http://"]').each(function(){ 
+$('a').each(function(){ 
             var oldUrl = $("a").attr("href"); 
             var newUrl = oldUrl.replace("http://", "https://"); 
             $("a").attr("href", newUrl); 
