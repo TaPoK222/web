@@ -1,0 +1,11 @@
+table{
+	border: 1px solid black;
+}
+td, tr{
+	border: 1px solid black;
+	margin: 8px;
+}
+div{
+	font-size: 20px;
+	background-color: red;
+}
