@@ -1,5 +1,5 @@
 .picturefon{
-	background: url(content/bg.jpg) no-repeat;
+	background: url(bg.jpg) no-repeat;
 	background-size: cover;
 	height: 1050px;
 	margin-top: -90px;
@@ -57,7 +57,7 @@ img{
 	line-height: 2;
 }
 .picturefon2{
-	background: url(content/jumbotron_bg.jpg) no-repeat;
+	background: url(jumbotron_bg.jpg) no-repeat;
 	background-size: cover;
 	height: 900px;
 	color: white;
