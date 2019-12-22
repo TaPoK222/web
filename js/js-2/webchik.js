@@ -53,7 +53,7 @@ function createChangeBorder(){
 
 	var x = document.createElement('input');
 	x.type = 'number';
-	x.setAttribute("onchange", "document.getElementById(\'submitChangeBorder\').value = `Применить ${value} px и рамка ${document.getElementById(\'select\').value}`");
+	x.setAttribute("onchange", "document.getElementById('submitChangeBorder').value = `Применить ${value} px и рамка ${document.getElementById('select').value}`");
 	x.id = 'borderPX'
 	form.appendChild(x);
 
@@ -62,7 +62,7 @@ function createChangeBorder(){
 	form.appendChild(x);
 
 	x = document.createElement('select');
-	x.setAttribute("onchange", "document.getElementById(\'submitChangeBorder\').value = `Применить ${document.getElementById(\'borderPX\').value} px и рамка ${value}`");
+	x.setAttribute("onchange", "document.getElementById('submitChangeBorder').value = `Применить ${document.getElementById('borderPX').value} px и рамка ${value}`");
 	x.id = 'select';
 	form.appendChild(x);
 
