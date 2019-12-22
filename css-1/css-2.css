@@ -1,0 +1,86 @@
+.picturefon{
+	background: url(content/bg.jpg) no-repeat;
+	background-size: cover;
+	height: 1050px;
+	margin-top: -90px;
+}
+h1{
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 135px;
+	color: white;
+	padding-top: 430px;
+	line-height: 120px; 
+}
+p{
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	letter-spacing: 9px;
+}
+.btn{
+	color: white;
+	background: black;
+	text-decoration: none;
+	padding: 10px 30px;
+	margin-left: 600px;
+}
+.blackfon{
+	background: black;
+	color: white;
+}
+ul{
+	list-style: none;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+li{
+	display: inline;
+	padding: 30px;
+}
+li:hover{
+	background-color: blue;
+}
+img{
+	float: left;
+    width: 200px;
+    height: 128px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.text{
+	color: black;
+	font-family: Helvetica, sans-serif;
+	line-height: 2;
+}
+.picturefon2{
+	background: url(content/jumbotron_bg.jpg) no-repeat;
+	background-size: cover;
+	height: 900px;
+	color: white;
+}
+.picturefon2 h2{
+	color: white;
+	margin-left: 900px;
+	font-size: 50px;
+    padding-top: 350px;
+}
+.picturefon2 .text{
+	color: white;
+	margin-left: 900px;
+	margin-bottom: 30px;
+}
+.picturefon2 .btn{
+	margin-left: 1150px;
+	background: blue;
+}
+#last{
+	background: black;
+	color: white;
+	padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
